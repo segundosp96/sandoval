@@ -1,0 +1,79 @@
+Las preguntas teóricas ponerlas en un archivo respuestas.txt 
+y ubicarlo dentro del proyecto (pregunta 5), subirlo a github.com.
+
+Incluir en el mismo proyecto un archivo script.sql los comandos 
+para crear la tabla e insertar los datos.
+
+1. Diagramar una clase llamada producto, con sus atributos y operaciones.
+
+public class musica {
+    
+    private String nombre_cancion;
+    private String genero;
+    private String artista;
+     
+
+public String HallarGenero(){
+        
+        String genero1="";
+        
+        switch (genero){
+            case "Rock" : genero; break;
+            case "Salsa" : genero; break;
+            case "Cumbia" : genero; break;
+       }
+        return precio;
+    }
+
+
+2. ¿Qué es un jar y para qué sirve?
+    Es una jarra que puedes utilizarlo sus codigos en  tus aplicaciones 
+
+3. ¿Qué es el patrón MVC?
+    Modelo-Vista-Controlador,
+    son las capas o grupos de componentes en los que 
+    organizaremos nuestras aplicaciones
+
+4. Declarar un array y asignarle valores.
+   char array[];
+   array = new char[10];
+
+   for (int x=0;x<array.length;x++)
+      System.out.printnln(array[x]);
+
+4.1 ¿Cómo se obtiene el primer valor del array?
+     System.out.println(al.get(1));
+
+4.2 ¿y el último?
+     cout << ultimo_elem (array) << endl;
+
+4.3 ¿Con qué estructura de control se itera/recorre un array? de un ejemplo.
+    public class Enhancedforloop
+{
+    public static void main(String args[])
+    {
+        String array[] = {"Ron", "Wisky", "RedLabel"};
+ 
+        //mejorado para for
+        for (String x:array)
+        {
+            System.out.println(x);
+        }
+ 
+        /*bucle for para la misma función
+        for (int i = 0; i < array.length; i++)
+        {
+            System.out.println(array[i]);
+        }
+        */
+    }
+}
+
+5. En la empresa Apple Inc. necesitan un software 
+para gestionar sus dispositivos, 
+es necesario hacer un crud de la tabla dispositivo 
+con lo campos, nombre, precio, tipo. 
+Se tiene que mostrar la lista de productos y una opción para registrar, 
+actualizar y borrar dispositivos.
+
+Usar Procedures para las operaciones CRUD.
